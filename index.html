@@ -1,0 +1,29 @@
+<div>
+    <header></header>
+    <body>
+        <form method="POST" action="/getData">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                    <label>Enter Start Date</label>
+                    <input type="date" id="startDate" name="startDate" />
+                    </td>
+                    <td>
+                    <label>Enter End Date</label>
+                    <input type="date" id="endDate" name="endDate" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="book" type="submit">Book</button>
+                    </td>
+                    <td>
+                        The total amount is : #{startDate}
+                    </td>
+                </tr>
+            </table>
+        </div>
+</form>
+    </body>
+</div>
